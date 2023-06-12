@@ -1,0 +1,13 @@
+.pokemonContainer {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  min-width: 300px;
+  height: 98px;
+}
+.pokemonContainer > div {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  justify-content: center;
+}

@@ -1,0 +1,21 @@
+.containerLoading{
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  min-width: 300px;
+  min-height: 98px;
+  background: linear-gradient(to left, #333, #333 50%, #5d5d5d 75%, #333 100%);
+  background-size: 200%;
+  overflow: hidden;
+  animation: moveBackground .9s ease-in-out infinite;
+}
+
+@keyframes moveBackground {
+  from {
+    background-position: 200%;
+  }
+
+  to {
+    background-position: 0%;
+  }
+}

@@ -1,0 +1,13 @@
+.buttonContainer{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 8px;
+  opacity: 0;
+  animation: opacityUp 4s forwards;
+}
+
+@keyframes opacityUp {
+to{
+  opacity: 1;
+}
+}
